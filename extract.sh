@@ -5,4 +5,4 @@
 // third is the duration like the start time
 // fourth is the name off the output video 
 
-ffmpeg -i $1 -ss $2 -t $3 vc copcy av copy $4 
+ffmpeg -i $1 -ss $2 -t $3 -c copy $4 
