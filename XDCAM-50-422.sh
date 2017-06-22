@@ -1,5 +1,5 @@
 // convert video to DXCAM HD 50 Mbits/s 422 MXF with FFMPEG
-// 4 parameters in input 
+// 2 parameters in input 
 // firt is the input video
 // second  is the name off the output video 
 
