@@ -21,7 +21,7 @@ process (){
 	subdircount=`find $localpath -maxdepth 1 -type d | wc -l`
 	if [ $subdircount -ne 1 ]
 	then
-		count="$((subdircount-1))"
+		local count="$((subdircount-1))"
 			#echo "contient $count sous dossier"
 		subdir=(`find $localpath -maxdepth 1 -type d |sort `)
 		for i in "${subdir[@]}"
